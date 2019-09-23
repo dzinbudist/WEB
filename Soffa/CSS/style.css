@@ -50,22 +50,16 @@ header h1 {
 }
 
 main {
-	margin: auto;
+	margin: 2em auto;
 	height: 15em;
 	width: 50%;
 }
 
-#articles ul {
-	display: inline;
-	list-style: none;
-}
-
-#articles li {
-	float: left;
-	width: 20%;
-	height: 2em;
-	margin-top: 10px;
-	margin-right: 5%;
+article {
+	display: inline-block;
+	margin-right: -4px;
+	width: 25%;
+	/* background-color: aqua; */
 }
 
 #articles h3 {
@@ -83,6 +77,12 @@ main {
 
 #articles p {
 	font-size: 0.8em;
+	/* text-align: justify; */
+	width: 90%;
+}
+
+#articles p.last {
+	width: 100%;
 }
 
 footer {
@@ -91,25 +91,25 @@ footer {
 }
 
 footer div {
-	margin: auto;
+	margin: 3em auto;
 	width: 90%;
 }
 
 footer i {
-	display: inline;
+	display: inline-block;
 	margin-right: 0.5em;
 	margin-left: 6em;
 	color: rgb(146, 43, 43);
 }
 
 footer h3 {
-	display: inline;
+	display: inline-block;
 	margin-right: 0.5em;
 	font-size: 0.8em;
 }
 
 footer p {
-	display: inline;
+	display: inline-block;
 	margin-right: 0.5em;
 	font-size: 0.9em;
 	color: grey;
